@@ -1,0 +1,92 @@
+
+<div id="reservemodal" class="modal fade" role="dialog" >
+    <div class="modal-dialog modal-lg" role="content" style="width:600px">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Edit Profile </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" >
+                <form class="px-md-2" method="post" #userform="ngForm">
+                   
+                    <div class="form-outline mb-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <input #Fname="ngModel" type="text" required [class.is-invalid]="Fname.invalid && Fname.touched" class="form-control " name="Fname" [(ngModel)]="fname"/>
+                                <label class="form-label" for="form3Example1q">First Name</label>
+                            </div>
+                           
+                            <div class="col-6">
+                                <input #Lname type="text"  class="form-control" name="Lname" [(ngModel)]="lname"/>
+                                <label class="form-label" for="form3Example1q">Last Name</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                        <div class="row">
+                            <div class="col-6">
+                                <input #Email="ngModel" type="email" required   pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" [class.is-invalid]="Email.invalid && Email.touched"class="form-control" name="Email" [(ngModel)]="email"/>
+                                <label class="form-label" for="form3Example1q">Email</label>
+                            </div>
+                            <div class="col-6">
+                                <input #Phone="ngModel" type="text" required  pattern="^\d{10}$" [class.is-invalid]="Phone.invalid && Phone.touched" class="form-control" name="Phone" [(ngModel)]="phone"/>
+                                <label class="form-label" for="form3Example1q">Phone</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4 pb-2 pb-md-0 mb-md-5">
+                      <div class="col">
+                        <div class="form-outline">
+                          <input #Address="ngModel" type="text" required  [class.is-invalid]="Address.invalid && Address.touched" class="form-control" name="Address" [(ngModel)]="address"/>
+                          <label class="form-label" for="form3Example1w">Address</label>
+                        </div>
+      
+                      </div>
+                    </div>  
+                    <!-- <button (click)="register(Fname.value,Lname.value,Email.value,Phone.value,Address.value,username.value,password.value)" class="btn btn-dark btn-lg mb-1">Register</button>  -->
+                    &nbsp;
+                    &nbsp;
+                    <button type="submit" class="btn btn-dark btn-lg mb-1" (click)="update()">Update</button>
+      
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <img src="../../assets/images/user.png" alt="" class="img-rounded img-responsive" />
+                    </div>
+                    <div class="col-sm-6 col-md-8">
+                        <h4>
+                            {{Currentuser.Fname}} {{Currentuser.Lname}}
+                            </h4>
+                        <small><cite title="San Francisco, USA">{{Currentuser.Address}}<i class="glyphicon glyphicon-map-marker">
+                        </i></cite></small>
+                        <p>
+                            <i class="glyphicon glyphicon-envelope"></i>{{Currentuser.Email}}
+                            <br />
+                            <i class="glyphicon glyphicon-phone"></i><a href="http://www.jquery2dotnet.com">{{Currentuser.Phone}}</a>
+                            <br />
+                            <i class="glyphicon glyphicon-user"></i>{{Currentuser.username}}</p>
+                        <!-- Split button -->
+                        <div class="btn-group">
+                            
+                                <a (click)="assignuser()" class="btn" data-toggle="modal" data-target="#reservemodal" >
+                                    <span class="fa fa-edit"></span> Edit</a>
+                            
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

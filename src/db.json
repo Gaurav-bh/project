@@ -1,0 +1,42 @@
+{
+    "users": [
+      {
+        "id": 111,
+        "firstName": "gaurav",
+        "lastName": "Bhardwaj",
+        "email": "gaurav@gmail.com",
+        "location": "Hyderabad"
+      },
+      {
+        "id": 109,
+        "firstName": "gaurav",
+        "lastName": "Bhardwaj",
+        "email": "gaurav@gmail.com",
+        "location": "Hyderabad"
+      },
+      {
+        "id": "102",
+        "firstName": "Kapil",
+        "lastName": "Sharma",
+        "email": "sharma@kapil.com",
+        "location": "mumbai"
+      },
+      {
+        "id": "112",
+        "firstName": "rahul",
+        "lastName": "bca",
+        "email": "rahul@bindCallback.com",
+        "location": "location"
+      }
+    ],
+    "categories":[
+      {
+        "Name":"Veg",
+        "Desc":"Masala Channa,Paneer Makhani Biryani,Aamras Ki Kadhi and many more...",
+        "image":"./assets/images/Veg.webp"
+      }
+    ]
+    
+  }
+
+ 

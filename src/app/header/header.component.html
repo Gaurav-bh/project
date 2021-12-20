@@ -1,0 +1,93 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid" style="background-color:black; width: 100%">
+      <a class="navbar-brand" href="#">MTX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar" style="width:100%">
+        <ul class="navbar-nav me-auto">
+
+            <li class="nav-item">
+              
+              <button type="button" class="btn" (click)="home()" style="color:white"><span class="fa fa-home fa-lg" ></span> Home</button>
+            </li>
+
+            <li class="nav-item">
+              <button type="button" class="btn" (click)="about()" style="color:white"><span class="fa fa-info fa-lg"></span> About</button>
+            </li>
+
+            
+
+            
+            
+
+            <li class="nav-item">
+              <div class="dropdown" >
+                  <button class="btn btn " type="button" data-toggle="dropdown" style="color:white;background-color:black;"><span class="fa fa-list fa-lg"></span> Food
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a routerLink="/veg">VEG</a></li>
+                    <li><a routerLink="/nonveg">NON-VEG</a></li>
+                    <li><a routerLink="/chinese">CHINESE</a></li>
+                  </ul>
+              </div>
+            </li>
+
+
+            <li class="nav-item">
+              <div class="dropdown" >
+                <button class="btn btn " type="button" data-toggle="dropdown" style="color:white;background-color:black;"><span class="fa fa-list fa-lg"></span> Credentials
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a routerLink="/login">Login</a></li>
+                    <li><a routerLink="/register">Register</a></li>
+                            
+                  </ul>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <button type="button" class="btn" (click)="contact()" style="color:white"><span class="fa fa-address-card fa-lg"></span> Contact</button>
+            </li>
+            <div *ngIf="username=='admin'">
+              <li class="nav-item">
+                <button type="button" class="btn" (click)="admin()" style="color:white"><span class="fa fa-address-card fa-lg"></span> Admin</button>
+              </li>
+            </div>
+
+
+            
+        </ul>
+
+       
+        
+      </div>
+    
+        <div style="margin-right: 0px;">
+            <li class="nav-item">
+                <div class="dropdown" >
+                <button class="btn btn " type="button" data-toggle="dropdown" style="color:white;background-color:black;"><i class="fa fa-user fa-fw"></i> {{username}}
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                    <li><a routerLink="/profile"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                    <li><a routerLink="/cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a></li>
+                   
+                    <li><a role="button" (click)="logout()"><i class="fa fa-sign-out" aria-hidden="true"></i> logout</a></li>
+                    
+
+                            
+                    </ul>
+                </div>
+            </li>
+            </div>
+        
+       
+          
+          
+     
+        
+        
+       
+   
+    </div>
+  </nav>

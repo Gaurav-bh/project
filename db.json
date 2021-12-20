@@ -1,0 +1,187 @@
+{
+  "categories": [
+    {
+      "Name": "veg",
+      "Desc": "Masala Channa,Paneer Makhani Biryani,Aamras Ki Kadhi and many more...",
+      "image": "./assets/images/Veg.webp"
+    },
+    {
+      "Name": "nonveg",
+      "Desc": "Butter Chicken, Chicken Chettinad, Laal Maas and many more...",
+      "image": "./assets/images/non-veg.jpeg"
+    },
+    {
+      "Name": "chinese",
+      "Desc": "Manchurian,Chowmein,Szechwan,Manchow and many more...",
+      "image": "./assets/images/chinese.webp"
+    }
+  ],
+  "corosals": [
+    {
+      "image": "./assets/images/corosal3.jpeg"
+    },
+    {
+      "image": "./assets/images/corosal4.jpeg"
+    }
+  ],
+  "cooperate-leader": [
+    {
+      "Fname": "Peter",
+      "Lname": "Pan",
+      "designation": "Chief Epicurious Officer",
+      "about": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "Fname": "Dhanasekaran",
+      "Lname": "Witherspoon",
+      "designation": "Chief Food Officer",
+      "about": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    },
+    {
+      "Fname": "Agumbe",
+      "Lname": "Tang",
+      "designation": "Chief Taste Officer",
+      "about": "lessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+    },
+    {
+      "Fname": "Alberto",
+      "Lname": "Somayya",
+      "designation": "Executive Chef",
+      "about": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+    }
+  ],
+  "registered": [
+    {
+      "id": 0,
+      "Fname": "Gaurav",
+      "Lname": "Bhardwaj",
+      "email": "bhardwajg556@gmail.com",
+      "phone": "7296992468",
+      "username": "Gaurav",
+      "pwd": "admin"
+    },
+    {
+      "id": 1,
+      "Fname": "rahul",
+      "Lname": "sharma",
+      "email": "sharma@gmail.com",
+      "phone": "983476993489",
+      "username": "rahul",
+      "pwd": "admin"
+    },
+    {
+      "id": 2,
+      "Fname": "mohit",
+      "Lname": "yadav",
+      "email": "mohit@yadav.com",
+      "phone": "7237428723",
+      "username": "mohit",
+      "pwd": "admin"
+    },
+    {
+      "id": 3,
+      "Fname": "manikant",
+      "Lname": "kumar",
+      "email": "manikant@gmail.com",
+      "phone": "998877665544",
+      "username": "manikant",
+      "pwd": "admin"
+    }
+  ],
+  "veg": [
+    {
+      "image": "./assets/images/masalachana.webp",
+      "name": "Masala Chana",
+      "desc": "This bowlful of mouth watering masala channa is topped with tadka aloo"
+    },
+    {
+      "image": "./assets/images/paneer.webp",
+      "name": "Paneer Makhani Biryani",
+      "desc": "Fried paneer cubes doused in a creamy gravy, layered with rice and cooked 'dum' style"
+    },
+    {
+      "image": "./assets/images/aamras.webp",
+      "name": "Aamras ki Kadhi",
+      "desc": "A quick and tangy blend of mango puree and buttermilk. This kadhi is not only flavourful, but also quite filling."
+    },
+    {
+      "image": "./assets/images/kadai.jpeg",
+      "name": "Kadai Mushroom ",
+      "desc": "Kadai Mushroom is such a super easy and delicious dish of sautéed button mushrooms, onions, bell peppers (capsicum) in a spiced, tangy tomato sauce."
+    },
+    {
+      "image": "./assets/images/baingan.jpeg",
+      "name": "Baingan Bharta ",
+      "desc": "Baingan Bharta is a popular North Indian Punjabi dish of smoky mashed eggplants in a sautéed, tangy, spiced base of onions, tomatoes, garlic, spices. "
+    },
+    {
+      "image": "./assets/images/bhindi.jpeg",
+      "name": "Bhindi Masala",
+      "desc": "'Bhindi' is the Hindi word for okra and “Masala” here refers to a sautéed base of aromatics like onions, garlic, ginger with the usual tomatoes, spices and herbs."
+    }
+  ],
+  "nonveg": [
+    {
+      "image": "./assets/images/spicy.webp",
+      "name": "Spicy Chicken Masala",
+      "desc": "A typical north-Indian-style chicken curry! Spicy chicken masala is a heaven for all the spice lovers who love their chicken doused in a myriad of flavours"
+    },
+    {
+      "image": "./assets/images/laalmaas.webp",
+      "name": "Laal Maas",
+      "desc": "Laal MaasA Rajasthani speciality, a delicious bright red-coloured dish with oodles of ghee and coriander leaves on top, makes scombination with piping hot parathas"
+    },
+    {
+      "image": "./assets/images/muttonkofta.webp",
+      "name": "Mutton Kofte",
+      "desc": "is a delightful mutton kofte recipe made with an extensive use of spices and herbs, including sun dried leaves, cardamom, kasturi methi, deggi mirch and saunf powder."
+    },
+    {
+      "image": "./assets/images/butterchicken.webp",
+      "name": "Butter Chicken",
+      "desc": "Ask any Indian their favourite chicken dishes, butter chicken will be one. Succulent chicken pieces doused in a gravy of butter and cream, makes for treat for non-vegetarians"
+    },
+    {
+      "image": "./assets/images/chettinad.webp",
+      "name": "Chicken Chettinad",
+      "desc": "Southern India has a plethora of delectable regional dishes and Chettinad chicken is a gem from just one of them. Chicken Chettinad is one of the most popular features of the cuisine and is loved for its perfect balance of flavours"
+    },
+    {
+      "image": "./assets/images/kadai.webp",
+      "name": "Kadai chicken",
+      "desc": "Kadai chicken is another extremely loved chicken curry, popular for its spicy flavour and got its name from the cooking technique, which uses 'kadhai' (or a wok) to make the delightful curry."
+    }
+  ],
+  "chinese": [
+    {
+      "image": "./assets/images/manchurian.webp",
+      "name": "Manchurian",
+      "desc": "Manchurian is a quintessential Indian ingredients like garlic, ginger, chilli and just added a splash of soya sauce instead of garam masala - and voila."
+    },
+    {
+      "image": "./assets/images/chowmein.webp",
+      "name": "Chowmein",
+      "desc": "In China, chowmein is referred to as chāu-mèing and is basically a portion of boiled noodles topped with greens, scrambled eggs and soya sauce."
+    },
+    {
+      "image": "./assets/images/szechwan.jpeg",
+      "name": "Szechwan",
+      "desc": "Flavour-packed, fiery red and ridiculously spicy - Indians have a love affair with Szechwan sauce and add it to just about anything, from gravies to bhel puris."
+    },
+    {
+      "image": "./assets/images/tofu.webp",
+      "name": "Stir Fried Tofu with Rice",
+      "desc": "A simple stir-fry with tofu and oriental sauces. Sti fried togu with rice is a great main course dish to prepare at home laced with flavourful spices and sauces"
+    },
+    {
+      "image": "./assets/images/chilli chicken.webp",
+      "name": "Szechwan Chilli Chicken",
+      "desc": "A fiery delight straight from the Sichuan region. It is loaded with pungent spices like brown pepper. red chillies, ginger, green chillies and white pepper."
+    },
+    {
+      "image": "./assets/images/hot.jpeg",
+      "name": "Hot and Sour Soup",
+      "desc": "soup with a spicy and sour broth. It is made with the goodness of mushrooms, cabbage, carrot and a spicy twist of red peppers or white pepper and sour with vinegar."
+    }
+  ]
+}
